@@ -1,92 +1,86 @@
 export const siteConfig = {
   name: "Bowen Zheng",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  title: "I optimize tools and processes for efficiency, quality, and cost-effectiveness",
+  description: "Portfolio website of Bowen Zheng",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "bzheng2438@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bowen-zheng-ab7693171/",
+    twitter: "https://x.com/bwnzhng2003",
+    github: "https://github.com/Bowen-Zheng-2003",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a mechanical engineer with experience in CAD, prototyping, process automation, and engineering simulations. I'm passionate about leveraging these skills to develop better tools that bridge the physical and digital world.",
+  skills: ["Solidworks", "FEA", "Python", "ML", "Computer Vision", "HTML", "CSS"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Nanopositioner",
+      description: [
+        "2-axis positioner with 25 mm of travel",
+        "Closed-loop system using PID",
+        "488 nm resolution"],
+      link: "https://x.com/bwnzhng2003/status/1900252376201904129",
+      skills: ["Flexure Design", "Embedded Systems", "Controls"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+      name: "Confocal Microscope",
+      description: [
+        "Creates surface map of sample with nanopositioner",
+        "25 micron height resolution" ],
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Optomechanical Assembly", "Electronics & Wiring", "Controls"],
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Raman Spectrometer",
+      description: [
+        "Identifies clear liquid samples",
+        "Mounts vertically for solid powdered sample analysis"],
+      link: "https://x.com/bwnzhng2003/status/1856378382319067221",
+      skills: ["Spectroscopy", "Material Characterization", "Optical Assembly"],
+    },
+    {
+      name: "Die Inspection Tool",
+      description: [
+        "3-axis automation tool for die inspection",
+        "Reduces typical inspection time to 30 seconds",
+        "CV & ML software identifies defects with 95% accuracy" ],
+      link: "https://www.youtube.com/watch?v=kxjA8AVGvQM",
+      skills: ["ML", "Computer Vision", "Rapid Prototyping", "Automation", "Python"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Bruker",
+      title: "Quality Engineer Intern",
+      dateRange: "May 2024 - May 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Built motorized 3-axis automated die inspection tool",
+        "Developed computer vision and ML based software for tracking and documenting die defects with 95% accuracy",
+        "Created SOP to smoothly integrate die inspection tool into inspection line",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Wake Forest University School of Medicine",
+      title: "Biomechanics Intern",
+      dateRange: "May 2023 - Aug 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed computational human body models for car crash simulations, reducing physical testing costs and time",
+        "Created and implemented a quality control algorithm to remove low-quality images from 10,000 CT scans",
+        "Automated rib cage measurement pipeline for 2,250 CT scans, increasing processing efficiency and data accuracy",
+        "Enhanced rib cage modeling accuracy through analysis of 24 CT and MRI scans",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "Columbia University",
+      degree: "Bachelor of Science in Mechanical Engineering",
+      dateRange: "2021-2025",
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "Tompkins Cortland Community College",
+      degree: "Associates Degree in Math & Science",
+      dateRange: "2017-2021",
     },
   ],
 };
