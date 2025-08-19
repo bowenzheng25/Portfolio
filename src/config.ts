@@ -7,7 +7,7 @@ export const siteConfig = {
     email: "bzheng2438@gmail.com",
     linkedin: "https://www.linkedin.com/in/bowen-zheng-ab7693171/",
     twitter: "https://x.com/bwnzhng2003",
-    github: "https://github.com/Bowen-Zheng-2003",
+    github: "https://github.com/bowenzheng25",
   },
   aboutMe:
     "I'm a mechanical engineer with experience in CAD, prototyping, process automation, and engineering simulations. I'm passionate about leveraging these skills to develop better tools that bridge the physical and digital world.",
@@ -19,15 +19,15 @@ export const siteConfig = {
         "2-axis positioner with 25 mm of travel",
         "Closed-loop system using PID",
         "488 nm resolution"],
-      link: "https://x.com/bwnzhng2003/status/1900252376201904129",
+      link: "https://x.com/bwnzhng2003/status/1957194165323706531",
       skills: ["Flexure Design", "Embedded Systems", "Controls"],
     },
     {
       name: "Confocal Microscope",
       description: [
         "Creates surface map of sample with nanopositioner",
-        "25 micron height resolution" ],
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+        "28 micron height resolution" ],
+      link: "https://x.com/bwnzhng2003/status/1957543508543262773",
       skills: ["Optomechanical Assembly", "Electronics & Wiring", "Controls"],
     },
     {
